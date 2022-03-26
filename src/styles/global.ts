@@ -5,12 +5,36 @@ export default createGlobalStyle`
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Trebuchet MS", sans-serif;
   }
 
   body {
-    background: ${props => props.theme.colors.background};
-    color: ${props => props.theme.colors.text};
-    font: 400 16px Inter, sans-serif;
+    background: ${props => props.theme.background};
+    font: 400 16px "Trebuchet MS", sans-serif;
   }
 
+  img {
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  button {
+    cursor: pointer;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+  }
 `;
