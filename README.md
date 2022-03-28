@@ -1,4 +1,4 @@
-This is a front-end test project made for [the brooklyn brothers](https://thebrooklynbrothers.com/) company using [React](https://pt-br.reactjs.org/)
+This is a front-end test project made for [the brooklyn brothers](https://thebrooklynbrothers.com/) company, using [React](https://pt-br.reactjs.org/)
 
 This project uses lot of stuff as:
 
