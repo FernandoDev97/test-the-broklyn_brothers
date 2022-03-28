@@ -1,4 +1,4 @@
-import { useContext, useState } from 'react';
+import { useContext } from 'react';
 import About from '../Components/About';
 import BannerHero from '../Components/BannerHero';
 import BannerProducts from '../Components/BannerProducts';

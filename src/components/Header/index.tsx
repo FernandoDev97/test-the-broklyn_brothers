@@ -2,7 +2,7 @@ import * as S from './styles';
 import Link from 'next/link';
 import MenuNavItem from './MenuNavItem';
 import { ChevronDownIcon } from '@heroicons/react/solid';
-import { useContext, useState } from 'react';
+import { useContext } from 'react';
 
 import { context } from '../../context/userContext';
 
