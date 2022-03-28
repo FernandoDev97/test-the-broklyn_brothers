@@ -32,9 +32,13 @@ export default createGlobalStyle`
 
   .container {
     width: 100%;
-    height: 100vh;
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
     margin: 0 auto;
+  }
+  .scroll::-webkit-scrollbar{
+    display: none;
   }
 `;
