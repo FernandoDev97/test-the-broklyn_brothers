@@ -1,14 +1,14 @@
 import { useContext } from 'react';
-import About from '../Components/About';
-import BannerHero from '../Components/BannerHero';
-import BannerProducts from '../Components/BannerProducts';
-import Footer from '../Components/Footer';
-import Header from '../Components/Header';
-import NavMobile from '../Components/NavMobile';
-import OurProducts from '../Components/OurProducts';
-import SeeMore from '../Components/SeeMore';
 import {context} from '../context/userContext'
 import useIsMobile from '../hooks/useIsMobile';
+import Header from '../components/Header';
+import NavMobile from '../components/NavMobile';
+import BannerHero from '../components/BannerHero';
+import About from '../components/About';
+import OurProducts from '../components/OurProducts';
+import BannerProducts from '../components/BannerProducts';
+import SeeMore from '../components/SeeMore';
+import Footer from '../components/Footer';
 
 
 export default function Home() {
